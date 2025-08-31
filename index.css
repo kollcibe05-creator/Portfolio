@@ -3,18 +3,24 @@
     margin: 0;
     padding: 0;
 }
-.home-title {
-  font-family: "Bungee", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+/*body */
+body {
+      background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+      font-family: "Merienda", cursive;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      color: #333;
+      background-size: cover;
 }
 
 /* navigation elements*/
 .navbar {
     position: fixed;
-    top: 0;
+    top: 2px;
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem; 
+     background-color: blanchedalmond; 
 }
 
 .nav-container {
@@ -22,14 +28,14 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 /* navigation links */
 .nav-links {
     list-style: none;
     display: flex;
     gap: 2rem;
-}
+    }
 .nav-links a {
     text-decoration: none;
     color: #333;
@@ -41,39 +47,126 @@
 }
 .nav-links a:hover {
     color: green;    
-    transform: translateX(10px);
-    background-color: tomato;   
+    background-color: tomato;  
+    box-shadow: 5px 5px 15px black;
 }
 /*----------home--------->*/
 
-.section {
-   height: 100vh;
-   padding: 100px 20px 80px;
-}
-
 .section#home {
-   opacity: 0.9;
+   margin-top: 60px; /* Adjust based on navbar height */
+    opacity: 0.9;
    transform: translateY(-20px);
+    height: 100vh;
+   padding: 100px 20px 80px;
 
 }
 
 .section#home {
-  background: orange;
   display: flex;
   align-items: center;
   justify-content: center;
   color: purple;
   position: relative;
-  overflow: hidden;
 }
 .home-title {
     font-size: 3rem;
    margin-bottom: 5rem;
-   animation: slideIn 1s ease forwards;
+  font-family: "Eater", serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+.home-title {
+    animation: mySlide 1s ease forwards;
+   animation-play-state: running;
+   animation-iteration-count: infinite;
+    }
+}
+
 .home-description {
-    font-size: 1.5rem;
+    font-size: 600px;
     margin-bottom: 2rem;
-    animation: fadeIn 1s ease forwards;
     opacity: 1;
 }
+
+/*styling h2 and h3 */
+.section h2 {
+  color: green;
+  text-align: center;
+}
+
+.section h3 {
+  color: blue;
+  text-align: center;
+}
+/* Blurb section*/
+#blurb {
+    width: 90%;
+    margin-top: 40px; /* Adjust based on navbar height */
+    opacity: 0.9;
+    height: 100vh;
+    padding: 100px 40px 80px 35px; 
+    align-items: center; 
+    justify-content: center;
+
+.hi {
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+    margin-left: 40%;
+}
+/*skills section*/
+#skills {
+    width: 90%;
+    margin-top: 40px; /* Adjust based on navbar height */
+    opacity: 0.9;
+    height: 100vh;
+    padding: 100px 40px 80px 35px;
+    align-items: center;
+    justify-content: center;
+}
+#skills .meme {
+    width: 20px;
+    height: 10px;
+    margin-left: 40%;
+}
+/*hobbies section*/
+#hobbies {
+    width: 90%;
+    margin-top: 40px; /* Adjust based on navbar height */
+    opacity: 0.9;
+    height: 100vh;
+    padding: 100px 40px 80px 35px;
+    align-items: center;
+    justify-content: center;
+}
+/* connect section*/
+#connect {
+    width: 90%;
+    margin-top: 80px; 
+    opacity: 0.9;
+    height: 100vh;
+    padding: 100px 40px 80px 35px;
+    align-items: center;
+    justify-content: center;
+}
+#connect ul {
+    list-style-type: none;
+    margin-left: 40%;
+    text-align: center;
+    gap: 2rem; 
+    align-items: center;
+}
+.instagram {
+   <a href="http://instagram.com" alt="Instagram link"></a>
+}
+.github {
+    <a href="https://github.com/kollcibe05-creator" alt="GitHub link"></a>
+}
+.twitter {
+   <a href="https://x.com/surreal_224" alt="Twitter link"></a>
+}
+.linkedin {
+   <a href="https://www.linkedin.com/in/collins-kibet-298a58376" alt="LinkedIn link"></a>
+}
+
