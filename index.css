@@ -69,23 +69,13 @@ body {
   position: relative;
 }
 .home-title {
-    font-size: 3rem;
-   margin-bottom: 5rem;
+    font-size: 50px;
+   margin-bottom: 2px;
   font-family: "Eater", serif;
-  font-weight: 400;
   font-style: normal;
 }
-
-.home-title {
-    animation: mySlide 1s ease forwards;
-   animation-play-state: running;
-   animation-iteration-count: infinite;
-    }
-}
-
 .home-description {
-    font-size: 600px;
-    margin-bottom: 2rem;
+    font-size: 20px;
     opacity: 1;
 }
 
@@ -108,6 +98,8 @@ body {
     padding: 100px 40px 80px 35px; 
     align-items: center; 
     justify-content: center;
+
+}
 
 .hi {
     margin-top: 10px;
@@ -142,31 +134,12 @@ body {
 }
 /* connect section*/
 #connect {
+    display: flex;
     width: 90%;
-    margin-top: 80px; 
+    margin-top: 450px; 
     opacity: 0.9;
     height: 100vh;
     padding: 100px 40px 80px 35px;
     align-items: center;
     justify-content: center;
 }
-#connect ul {
-    list-style-type: none;
-    margin-left: 40%;
-    text-align: center;
-    gap: 2rem; 
-    align-items: center;
-}
-.instagram {
-   <a href="http://instagram.com" alt="Instagram link"></a>
-}
-.github {
-    <a href="https://github.com/kollcibe05-creator" alt="GitHub link"></a>
-}
-.twitter {
-   <a href="https://x.com/surreal_224" alt="Twitter link"></a>
-}
-.linkedin {
-   <a href="https://www.linkedin.com/in/collins-kibet-298a58376" alt="LinkedIn link"></a>
-}
-
